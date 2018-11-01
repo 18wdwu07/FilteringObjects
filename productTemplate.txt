@@ -1,0 +1,7 @@
+<div class="card">
+  <img class="card-img-top" src="images/cat.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Product Name</h5>
+    <p class="card-text">$10</p>
+  </div>
+</div>
