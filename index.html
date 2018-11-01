@@ -31,8 +31,30 @@
                     </div>
                 </div>
                 <div class="col-md-4 bg-dark text-white h-100">
-                    <h2>Filters</h2>
-                    <hr>
+                    <div class="row">
+                        <div class="col">
+                            <h2>Filters</h2>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <form onsubmit="filterProducts();">
+                                <div class="form-group">
+                                    <label for="minPrice">Min Price</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">$</div>
+                                        </div>
+                                        <input id="minPrice" type="number" class="form-control" name="minPrice" min="0" value="0">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="btn btn-light" value="Filter Products">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
